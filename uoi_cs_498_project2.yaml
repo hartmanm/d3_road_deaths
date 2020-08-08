@@ -1,0 +1,13 @@
+runtime: python27
+api_version: 1
+threadsafe: true
+
+handlers:
+
+- url: /
+  static_files: uoi_cs_498_project2/uoi_cs_498_project2.html
+  upload: uoi_cs_498_project2/uoi_cs_498_project2.html
+
+- url: /(.*\.(png|jpg|jpeg|zip|jp2|css|js|html))$
+  static_files: uoi_cs_498_project2/\1
+  upload: uoi_cs_498_project2/.*\.(png|jpg|jpeg|zip|jp2|css|js|html)$
