@@ -1,9 +1,10 @@
-<!DOCTYPE html>
 <!--
-for the University of Illinois
-2020 
-Michael Neill Hartman
+Copyright (c) 2020 Michael Neill Hartman. All rights reserved.
+mnh_license@proton.me
+https://github.com/hartmanm
 -->
+
+<!DOCTYPE html>
 <html lang="en">
 <head>
 <title>d3_road_deaths_project</title>
@@ -285,7 +286,7 @@ is_world=0;
 document.getElementById("store").innerHTML=""
 var total_world_deaths_2016=0;
 var total_world_deaths_2016_dom = document.getElementById("basis")
-d3.csv("https://raw.githubusercontent.com/hartmanm/data/master/final_table.csv").then(function(data) {
+d3.csv("https://raw.githubusercontent.com/hartmanm/d3_road_deaths_project/master/final_table.csv").then(function(data) {
 // a join of https://data.worldbank.org/indicator/SP.POP.TOTL
 // and https://apps.who.int/gho/data/node.main.A997
 for(var key of data){if(key != ""){
@@ -427,7 +428,7 @@ is_world=1;
 document.getElementById("store").innerHTML=""
 var total_world_deaths_2016=0;
 var total_world_deaths_2016_dom = document.getElementById("basis")
-d3.csv("https://raw.githubusercontent.com/hartmanm/data/master/final_table.csv").then(function(data) {
+d3.csv("https://raw.githubusercontent.com/hartmanm/d3_road_deaths_project/master/final_table.csv").then(function(data) {
 // a join of https://data.worldbank.org/indicator/SP.POP.TOTL
 // and https://apps.who.int/gho/data/node.main.A997
 total_world_deaths_2016_dom.innerHTML=""
@@ -568,7 +569,7 @@ function generate_selector(){
 is_selector=1
 var active_selection;
 var selector_dom = document.getElementById("selector")
-d3.csv("https://raw.githubusercontent.com/hartmanm/data/master/final_table.csv").then(function(data) {
+d3.csv("https://raw.githubusercontent.com/hartmanm/d3_road_deaths_project/master/final_table.csv").then(function(data) {
 // a join of https://data.worldbank.org/indicator/SP.POP.TOTL
 // and https://apps.who.int/gho/data/node.main.A997
 selector_dom.innerHTML=""
