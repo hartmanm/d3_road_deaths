@@ -288,7 +288,7 @@ is_world=0;
 document.getElementById("store").innerHTML=""
 var total_world_deaths_2016=0;
 var total_world_deaths_2016_dom = document.getElementById("basis")
-d3.csv("https://raw.githubusercontent.com/hartmanm/d3_road_deaths/master/final_table.csv").then(function(data) {
+d3.csv("https://raw.githubusercontent.com/hartmanm/d3_road_deaths/refs/heads/master/final_table.csv").then(function(data) {
 // a join of https://data.worldbank.org/indicator/SP.POP.TOTL
 // and https://apps.who.int/gho/data/node.main.A997
 for(var key of data){if(key != ""){
@@ -430,7 +430,7 @@ is_world=1;
 document.getElementById("store").innerHTML=""
 var total_world_deaths_2016=0;
 var total_world_deaths_2016_dom = document.getElementById("basis")
-d3.csv("https://raw.githubusercontent.com/hartmanm/d3_road_deaths/master/final_table.csv").then(function(data) {
+d3.csv("https://raw.githubusercontent.com/hartmanm/d3_road_deaths/refs/heads/master/final_table.csv").then(function(data) {
 // a join of https://data.worldbank.org/indicator/SP.POP.TOTL
 // and https://apps.who.int/gho/data/node.main.A997
 total_world_deaths_2016_dom.innerHTML=""
@@ -571,7 +571,7 @@ function generate_selector(){
 is_selector=1
 var active_selection;
 var selector_dom = document.getElementById("selector")
-d3.csv("https://raw.githubusercontent.com/hartmanm/d3_road_deaths/master/final_table.csv").then(function(data) {
+d3.csv("https://raw.githubusercontent.com/hartmanm/d3_road_deaths/refs/heads/master/final_table.csv").then(function(data) {
 // a join of https://data.worldbank.org/indicator/SP.POP.TOTL
 // and https://apps.who.int/gho/data/node.main.A997
 selector_dom.innerHTML=""
