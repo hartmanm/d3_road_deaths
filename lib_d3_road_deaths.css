@@ -1,0 +1,18 @@
+/* 
+Copyright (c) 2020 Michael Neill Hartman. All rights reserved.
+mnh_license@proton.me
+https://github.com/hartmanm
+*/ 
+
+.header{padding: 0px; text-align: center; color: #9d9d9d; background-color: #101010;}
+div{justify-items: center; overflow:hidden; width:100%;padding: 0px 0px;}
+body{background:#101010;}
+svg{margin: 40, 40, 40, 40;}
+intro{text-align: left; color: #9d9d9d;}
+h1{margin-left: auto; margin-right:auto; text-align: center; color: #9d9d9d;}
+h2{margin-left: auto; margin-right:auto; text-align: center; color: #FEFF4D;}
+h4{margin-left: auto; margin-right:auto; text-align: center; color: #9d9d9d;}
+h3{padding: 20px 100px; margin-left: auto; margin-right:auto; text-align: center; color: #9d9d9d;}
+text{margin-left: auto; margin-right:auto; text-align: center; color: #9d9d9d};
+country_link{white-space: nowrap; padding: 2px 2px; font-size: 75%; color: #9d9d9d; background-color: #FEFF4D; border-radius: 1px;}
+#content ddd{margin-left: auto; margin-right:auto; display: inline-block; margin: 3px; background-color: rgb(119, 0, 255); color: white; padding: 3px; text-align: center;}
